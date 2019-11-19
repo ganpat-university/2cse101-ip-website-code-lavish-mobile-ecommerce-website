@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+#menubar{height: 11vw;}
+
+.performance{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	color: aliceblue;
+	position: absolute;
+	top: 19vw; right: 38vw;
+	font-size: 3vw;
+	-webkit-text-stroke: 0.1vw aqua;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+footer{
+	color: aliceblue;
+	background-color: #02182A;
+	position: absolute;
+	top: 130vw;
+	width: 100%;
+	left: 0vw;
+}
+footer a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	list-style: none;
+	color: aliceblue;
+	transition: 0.4s;
+}
+footer a:hover{
+	color: red;
+}
+footer div{
+	position: absolute;
+	top: 0vw; right: 3vw;
+}
+.f_icon{
+	padding: 1vw;
+	height: 3vw;
+	transition: 0.4s;
+}
+.f_icon:hover{
+	height: 4vw;
+}
+
+#title{
+	font-family: times new roman, Cambria, "Hoefler Text", "Liberation Serif";
+	font-weight: bold;
+}
+a img{
+	height: 20vw;
+	padding: 1vw 1vw 1vw 2vw;
+}
+#description{
+	position: absolute;
+	right: 6vw; top: 2vw;
+	font-size: 3vw;
+}
+
+.clip1{
+	position:absolute;
+	top:17vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip1:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+
+.clip2{
+	position:absolute;
+	top:17vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip2:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+
+.clip3{
+	position:absolute;
+	top:47vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip3:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+
+.clip4{
+	position:absolute;
+	top:47vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip4:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip5{
+	position:absolute;
+	top:77vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip5:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip6{
+	position:absolute;
+	top:77vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip6:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip7{
+	position:absolute;
+	top:107vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip7:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip8{
+	position:absolute;
+	top:107vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip8:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip9{
+	position:absolute;
+	top:137vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip9:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip10{
+	position:absolute;
+	top:137vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip10:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip11{
+	position:absolute;
+	top:167vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip11:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip12{
+	position:absolute;
+	top:167vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip12:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip13{
+	position:absolute;
+	top:197vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip13:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip14{
+	position:absolute;
+	top:197vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip14:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip15{
+	position:absolute;
+	top:227vw;left:5vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip15:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip16{
+	position:absolute;
+	top:227vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_left 1s ease;
+}
+.clip16:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip17{
+	position:absolute;
+	top:77vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+	animation: slide_right 1s ease;
+}
+.clip17:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+.clip17{
+	position:absolute;
+	top:77vw;left:50vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family: Calibri;
+	height:22vw; width:37vw;
+	transition:0.3s;
+}
+.clip17:hover{
+	border: 0.3vw solid navy;
+	opacity: 0.8;
+}
+
+@keyframes slide_left {
+	0% {left: -50vw;}
+	100%{left: 50vw;}
+}
+@keyframes slide_right {
+    0% { left: -50vw; }
+	100%{left: 5vw;}
+}

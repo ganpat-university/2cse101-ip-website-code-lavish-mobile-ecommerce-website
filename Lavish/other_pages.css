@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.tophead{
+	height: 10vw;
+}
+body{
+	color: wheat;
+}
+.about_box{
+	background-image: linear-gradient(to right, #B00808, #02182A);
+	height: 58vw;
+	left: 0vw;
+	border: 0.5vw solid #1D044A;
+	border-radius: 1vw;
+}
+#logo{
+	color: red;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	position: absolute;
+	top: 15vw;
+	right: 10vw;
+	font-size: 6vw;
+	transition: 0.5s;
+	font-weight: 550;
+	animation: slide_left 1s ease;
+}
+#logo:hover{
+	-webkit-text-stroke: 0.1vw yellow;
+}
+#description{
+	width: 50vw;
+	text-align: justify;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 2vw;
+	position: relative;
+	left: 6vw; top: 3vw;
+	animation: slide_right 1s ease;
+	transition: 0.5s;
+}
+#description:hover{
+	color: white;
+}
+footer{
+	color: aliceblue;
+	background-color: #02182A;
+	position: absolute;
+	top: 163vw;
+	width: 100%;
+	left: 0vw;
+}
+footer a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	list-style: none;
+	color: aliceblue;
+	transition: 0.4s;
+}
+footer a:hover{
+	color: red;
+}
+footer div{
+	position: absolute;
+	top: 0vw; right: 3vw;
+}
+footer img{
+	padding: 1vw;
+	width: 10%;
+	transition: 0.4s;
+}
+footer img:hover{
+	width: 15%;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+}
+.contact_title{
+	margin: 10vw 10vw 4vw;
+	text-transform: uppercase;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
+	
+}
+.contact_title h1{
+	font-size: 2.5vw;
+	transition: all 4s ease-in-out;
+}
+form {
+	margin-top: 2vw;
+	transition: all 4s ease-in-out;
+}
+.form-control {
+	width: 50vw;
+	background: white;
+	border: 0.2vw solid navy;
+	border-radius: 0.5vw;
+	outline: none;
+	font-color: black;
+	font-size: 2vw;
+	margin-bottom: 2vw;
+	
+}
+input {
+	height:2.5vw;
+	color: #02182A;
+}
+.submit {
+	background: red;
+	border: 0.1vw outset navy;
+	color: white;
+	font-size: 20px;
+	height: 50px;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	border-radius: 0.5vw;
+	
+}
+.submit:hover {
+	color: yellow;
+	background-color: green;
+	border-radius:0.5vw;
+}
+
+@keyframes slide_left{
+	0%{right: -15vw;}
+	/*25%{right: 3vw;}
+	50%{right: 5vw;}
+	75%{right: 7.5vw;}*/
+	100%{right: 10vw;}
+}
+@keyframes slide_right {
+    0% { left: -50vw; }
+	100%{left: 6vw;}
+}

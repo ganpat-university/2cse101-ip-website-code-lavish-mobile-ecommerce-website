@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+#menubar{
+	height: 13vw;
+}
+#mobile{
+	height: 30vw;
+	transition: 0.3s;
+	padding-left: 2vw;
+}
+#mobile:hover{
+	height: 32vw;
+}
+#icon{
+	height: 100%;
+	padding-top: 1vw;
+}
+#description{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.5vw;
+	position: absolute;
+	top: 12vw;
+	left: 30vw;
+	padding-right: 12vw;
+	text-align: justify;
+}
+
+button{
+	border-radius: 0.5vw;
+	border:thin outset orange;
+	background-color: orange;
+	color: white;
+	padding: 1vw 2vw;
+	transition: 0.5s;
+}
+button:hover{
+	border-radius: 0.5vw;
+	background-color: #E97923;
+	color: #FFFFFF;
+	-webkit-text-stroke: 0.1vw black;
+	border: thick outset orange;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+footer{
+	color: aliceblue;
+	background-color: #02182A;
+	position: absolute;
+	top: 130vw;
+	width: 100%;
+	left: 0vw;
+}
+footer a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	list-style: none;
+	color: aliceblue;
+	transition: 0.4s;
+}
+footer a:hover{
+	color: red;
+}
+footer div{
+	position: absolute;
+	top: 0vw; right: 3vw;
+}
+.f_icon{
+	padding: 1vw;
+	height: 3vw;
+	transition: 0.4s;
+}
+.f_icon:hover{
+	height: 4vw;
+}

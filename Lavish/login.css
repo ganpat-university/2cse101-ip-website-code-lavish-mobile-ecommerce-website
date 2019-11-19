@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:linear-gradient(to right,#02182A , #E12A2D ,#02182A);
+}
+.box
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position:absolute;
+	top:30vw;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:30vw;
+	height:30vw;
+	padding:3vw;
+	background: #02182A;
+	box-sizing:border-box;
+	box-shadow:0 0.5vw 2.5vw rgba(0,0,0.5);
+	border-radius:2vw;
+	animation: slide 1s ease;
+}
+.box h2
+{
+	margin:0 0 3vw;
+	padding:0;
+	color:#fff;
+	text-align:center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:2.5vw
+}
+.box .inputBox 
+{
+	position:relative;
+}
+.box .inputBox input
+{
+	width:100%;
+	padding:1vw 0;
+	font-size:2vw;
+	color: red;
+	letter-spacing:0.05vw;
+	margin-bottom:2vw;
+	border:none;
+	border-bottom:0.05vw solid #fff;
+	outline:none;
+	background:transparent;
+}
+#but
+{
+	background:transparent;
+	border:none;
+	outline:none;
+	color:#000;
+	background:#FFF;
+	padding:0.5vw 2vw;
+	cursor:pointer;
+	border-radius:2vw;
+	height:2.5vw;
+	font-size:1.25vw;
+	width:7vw;
+	font-weight:100;
+	
+}
+.box .inputBox label
+{
+	position:absolute;
+	top:0;
+	left:0;
+	letter-spacing:0.05vw;
+	padding:0.5vw 0;
+	font-size:1.5vw;
+	color:#fff;
+	pointer-events:none;
+	transition:.5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+	top:-1.6vw;
+	left:0;
+	color:#FFF;
+	font-size:1.5vw;
+}
+#forgot
+{
+	text-decoration:none;
+	position: absolute;
+	left: 2vw;
+	font-size:1.5vw;
+	color: blue;
+	transition: 0.3s;
+	padding-left: 0vw;
+	
+}
+a{text-decoration:none;}
+#forgot:hover{
+	color: #FFFFFF;
+	font-size:1.55vw
+}
+#signup{
+	text-decoration: none;
+	position: absolute;
+	right: 3vw; bottom: 0.5vw;
+	padding: 1vw 0vw;
+	color: red;
+	font-size: 1.5vw;
+	transition: 0.3s;
+}
+#signup:hover{
+	font-size: 1.55vw;
+	color: #FFFFFF;
+}
+
+
+
+
+footer{
+	color: aliceblue;
+	background-color: #02182A;
+	position: absolute;
+	top: 50vw;
+	width: 100%;
+	left: 0vw;
+}
+footer a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	list-style: none;
+	color: aliceblue;
+	transition: 0.4s;
+}
+footer a:hover{
+	color: red;
+}
+footer div{
+	position: absolute;
+	top: 0vw; right: 3vw;
+}
+footer img{
+	padding: 1vw;
+	width: 10%;
+	transition: 0.4s;
+}
+footer img:hover{
+	width: 15%;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+}
+@keyframes slide{
+	0%{top: -50vw;}
+	100%{top: 30vw;}
+}
+@media screen and (min-width: 400px) {
+	footer{
+		position: absolute;top: 70vw;
+	}
+}

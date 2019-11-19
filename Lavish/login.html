@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Form</title>
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+<div class="box">
+<h2>Login</h2>
+	
+<form name="index" autocomplete="off">
+	
+    <div class="inputBox">
+        <input type="text" name="cid"  id= "id" required>
+        <label>Email ID</label>
+    </div>
+	
+    <div class="inputBox">
+        <input type="password" name="password" id="pass" required />
+        <label>Password</label>
+    </div>
+	
+    <center>
+        <div name="" value="Submit" onclick="check()" style="height:2.4vw;width:6.5vw;font-size:1.5vw;color:#000;background-color:#FFF;text-align:center;border-radius:0.75vw;padding-top:1vw;padding-bottom:0.25vw;cursor:pointer">Login
+        </div>
+    </center>
+	
+    <br>
+    <a href="mailto:arslaanrock1234@gmail.com?" target="_blank">
+    <span id="forgot">Forgot password?<span>
+    </a>
+	
+    <a href="#">
+      <span id="signup" style="text-decoration: none">Sign Up</span></a>
+</form>	
+</div> 
+
+<script>
+function check()
+{
+	
+	var isLogin=false
+	var cid=document.getElementById('id').value;
+	var passw=document.getElementById('pass').value;
+	if(localStorage.count1)
+	{
+		var c=localStorage.count1
+		var c1=localStorage.count1
+		for (var i=1;i<=c;i++)
+		{
+			var temp=localStorage.getItem("id"+i)
+			var temp1=localStorage.getItem("pass"+i)
+			//var pd=document.getElementById("id").value;
+			localStorage.setItem("em"+i,temp)	
+			if(cid==temp && passw==temp1)
+			{
+				
+				isLogin=true
+				break;
+			}
+		}
+		
+	}
+	
+	else
+	{
+		alert("browser does not support")
+	}
+	
+	if(isLogin)
+	{
+		alert("Login sucessfully")	
+	}
+	else
+	{
+		alert("Invalid Credentials")	
+	}
+	
+}
+</script>
+	
+<footer style="top: 50vw">
+	<table><tr>
+	<td>
+		<ul style="font-size: 2vw;list-style: none;"><span style="color: red;">About</span><br>
+			<li><a href="contact_us.html">Contact Us</a></li>
+			<li><a href="about_us.html">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Press</a></li>
+		</ul>
+	</td>
+	<td>
+		<ul style="font-size: 2vw;list-style: none;"><span style="color: red;">Menu</span><br>
+			<li><a href="performance.html">Performance</a></li>
+			<li><a href="camera.html">Camera</a></li>
+			<li><a href="build_&_design.html">Build and Design</a></li>
+			<li><a href="gaming.html">Gaming</a></li>
+		</ul>
+	</td>
+	</tr></table>
+
+	<div style="padding-top: 0vw"><br>
+		<a href="#"><img class="f_icon" src="facebook.png" alt="fb"></a>
+		<a href="#"><img class="f_icon" src="instagram.png" alt="ig"></a>
+		<a href="#"><img class="f_icon" src="twitter.png" alt="tw"></a>
+		<a href="#"><img class="f_icon" src="youtube.png" alt="yt"></a>
+	</div>
+	
+	<center><span style="color: red;font-size: 3vw;font-weight: bold">LAVISH</span>
+		<p>All rights reserved | developed by AS Developers&copy; 2019</p>
+	</center>
+</footer>
+	
+</body>
+
+</html>

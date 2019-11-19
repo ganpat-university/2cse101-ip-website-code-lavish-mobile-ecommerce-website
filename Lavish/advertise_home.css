@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #FFFFFF;
+}
+#menu{
+	height: 11vw;
+}
+.mySlides {display: none;}
+.Slides {display: none;}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90vw;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container_1{
+	position: absolute;
+	top: 109vw; right: 7vw;
+	margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1vw;
+  padding: 1vw 1vw;
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1vw;
+  padding: 1vw 1vw;
+  position: absolute;
+  top: 0vw;
+}
+
+/* The dots */
+.dot{
+  height: 1.5vw;
+  width: 1.5vw;
+  margin: 0 1vw;
+  background-color: #ABABAB;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dots{
+	position: absolute;
+	top: 148.3vw; right: 15vw;
+	height: 1.5vw;
+	width: 1.5vw;
+ 	margin: 0 1vw;
+  	background-color: #ABABAB;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #262626;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 0.5vw}
+}
+
+/*Style For clips*/
+#label{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: bold;
+	font-size: 2vw;
+}
+.clip_1{
+	color: black;
+	position:absolute;
+	top:52vw;left:7vw;
+	padding:2vw 2vw 0vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family:Calibri;
+	height:20vw; width:17vw;
+	text-decoration:none;
+	transition:0.3s;
+	text-align: center;
+}
+.clip_1:hover{
+	border: 0.3vw solid navy;
+	color: red;
+	opacity: 0.8;
+}
+
+.clip_2{
+	color: black;
+	background-color: #FFFFFF;
+	position:absolute;
+	top:52vw;left:38vw;
+	padding:2vw 2vw 0vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family:Calibri;
+	height:20vw; width:17vw;
+	text-decoration:none;
+	transition:0.3s;
+	text-align: center;
+}
+.clip_2:hover{border: 0.3vw solid navy;
+	color: red;
+	opacity: 0.8;
+}
+
+.clip_3{
+	color: black;
+	position:absolute;
+	top:52vw;left:68vw;
+	padding:2vw 2vw 0vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family:Calibri;
+	height:20vw; width:17vw;
+	text-decoration:none;
+	transition:0.3s;
+	text-align: center;
+}
+.clip_3:hover{border: 0.3vw solid navy;
+	color: red;
+	opacity: 0.8;
+}
+
+.clip_4{
+	color: black;
+	position:absolute;
+	top:108vw;left:9vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family:Calibri;
+	height:20vw; width:35vw;
+	text-decoration:none;
+	transition:0.3s;
+	text-align: center;
+}
+.clip_4:hover{border: 0.3vw solid navy;
+	color: red;
+	opacity: 0.8;
+}
+
+.clip_5{
+	color: black;
+	position:absolute;
+	top:134vw;left:9vw;
+	padding:1vw 2vw 1vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family:Calibri;
+	height:20vw; width:35vw;
+	text-decoration:none;
+	transition:0.3s;
+}
+.clip_5:hover{border: 0.3vw solid navy;
+	color: red;
+	opacity: 0.8;
+}
+
+.clip_6{
+	color: black;
+	background-color: #FFFFFF;
+	position:absolute;
+	top:105vw;left:68vw;
+	padding:2vw 2vw 0vw 2vw;
+	border-radius:1vw;
+	border: 0.2vw solid #000;
+	font-family:Calibri;
+	height:20vw; width:17vw;
+	text-decoration:none;
+	transition:0.3s;
+}
+.clip_6:hover{border: 0.3vw solid navy;
+	color: red;
+	opacity: 0.8;
+}
+
+footer{
+	color: aliceblue;
+	background-color: #02182A;
+	position: absolute;
+	top: 163vw;
+	width: 100%;
+	left: 0vw;
+}
+footer a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	list-style: none;
+	color: aliceblue;
+	transition: 0.4s;
+}
+footer a:hover{
+	color: red;
+}
+footer div{
+	position: absolute;
+	top: 0vw; right: 3vw;
+}
+footer img{
+	padding: 1vw;
+	width: 10%;
+	transition: 0.4s;
+}
+footer img:hover{
+	width: 15%;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+}

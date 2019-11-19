@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lavish - The Mobile Shop | Home</title>
+	<link rel="stylesheet" href="index.css" type="text/css">
+</head>
+	
+<body>
+	<iframe style="position: absolute; left: 0vw; top: 0vw;" src="advertise_home.html" height="100%" width="100%" name="myframe1"></iframe>
+	
+	<div class="top_head">
+		<a  href="index.html"><strong id="logo">LAVISH</strong></a>
+		<div class="search-container">
+		<form action="#">
+     		<input type="text" placeholder="Search.." name="search"><a href="#"><img src="search.png" alt="search"></a>
+   	   		<!--<button type="submit">Search</button>-->
+    	</form>
+		</div>
+	</div>
+	
+	<!--Dropdown menu-->
+	<div id="menubar">
+		<!--Lavish-->
+		
+		<a href="index.html"><span class="menu active" id="leftmenu">Home</span></a>
+
+			<div id="category">
+				<a href="#"><span class="menu" id="leftmenu">Categories</span></a>
+				
+				<div id="dropdown1" >
+					<div id="budget" class="dropdown"><li>Budget</li>
+						<div id="dropdown2">
+							<a href="5k-10k.html" target="myframe1" class="menu"><li class="dropdown">₹5000-₹10000</li></a>
+							
+							<a href="10k-25k.html" target="myframe1" class="menu"><li class="dropdown">₹10000-₹25000</li></a>
+							
+							<a href="Above25k.html" target="myframe1" class="menu"><li class="dropdown">Above ₹25000</li></a>
+						</div>
+					</div>
+						
+					<div id="features" class="dropdown"><li>Features</li>
+						<div id="dropdown3">
+							<a href="performance.html" target="myframe1" class="menu"><li class="dropdown">Performance</li></a>
+							
+							<a href="camera.html" target="myframe1" class="menu"><li class="dropdown">Camera</li></a>
+							
+							<a href="build_&_design.html" target="myframe1" class="menu"><li class="dropdown">Build and Design</li></a>
+							
+							<a href="gaming.html" target="myframe1" class="menu"><li class="dropdown">Gaming</li></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<a href="about_us.html" target="myframe1"><span class="menu" id="leftmenu">About us</span></a>
+	<a href="contact_us.html" target="myframe1"><span class="menu" id="rightmenu">Contact Us</span></a>
+	<a href="login.html" target="myframe1"><span class="menu" id="rightmenu" style="position: absolute;left: 88vw">Log In</span></a>
+</div>	
+	
+<script>
+// adding active class to the current page (highlight it)
+var header = document.getElementById("menubar");
+var btns = header.getElementsByClassName("menu");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+	
+</body>
+</html>
